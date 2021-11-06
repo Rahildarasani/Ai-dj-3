@@ -61,9 +61,9 @@ function draw()
 {
     image(video,0,0,600,500);
 
-    song1Status=song_1.isPlaying()
-    song2Status=song_2.isPlaying()
-    song3Status=song_3.isPlaying()
+    song1Status=song1.isPlaying()
+    song2Status=song2.isPlaying()
+    song3Status=song3.isPlaying()
     fill("#FF0000");
     stroke("#FF0000");
 
